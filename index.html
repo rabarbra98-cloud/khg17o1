@@ -1,23 +1,117 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="no">
   <head>
-    <title>Home</title>
+    <title>Min portefølje</title>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width" />
-    <!--
-      Need a visual blank slate?
-      Remove all code in `styles.css`!
-    -->
     <link rel="stylesheet" href="styles.css" />
     <script type="module" src="script.js"></script>
   </head>
+
   <body>
-    <nav>
-      <a href="/" aria-current="page">Home</a>
-      <a href="/page2.html">Other page</a>
-    </nav>
+    <header>
+      <h2>AL</h2>
+      <nav>
+        <ul>
+          <li>Om meg</li>
+          <ul>
+            <li>Favorittbøker</li>
+            <li>Favorittspill</li>
+          </ul>
+          <li>Prosjekter</li>
+          <ul>
+            <li>Første prosjekter</li>
+            <li>"Project 133Zeta"</li>
+            <li>Datascience</li>
+          </ul>
+        </ul>
+      </nav>
+    </header>
+
     <main>
-      <h1>Home page</h1>
+      <section class="hero">
+        <h1 class="main_title">Velkommen til min hjemmeside/portefølje!</h1>
+        <h2 class="hero_title">Om meg</h2>
+        <p class="hero_text">
+        Jeg har jobbet noe med backend development med Python før, noe selvlært,
+         noe i forbindelse med utdanning. Jeg liker hjernetrim og utfordringer, 
+         så jeg tar naturlig til ganske mye. Dette er første gang jeg bruker HTML og CSS 
+         i noen betydelig grad, så vi får se hvordan det går.
+        </p>
+
+        <p class="hero_text">
+          Jeg har aldri vært veldig flink på å snakke om meg selv, men vi 
+          kan vel starte med interesser. Jeg har interesser innenfor rollespill, 
+          videospill, bøker, og historier generelt. Så lenge det har drager i seg, 
+          er det god sjanse for at jeg vil vile det.
+        </p>
+
+        <h3>Favorittbokserier</h3>
+
+        <div class="hero_section">
+          <p>
+            Jeg liker som sagt bøker, og det er mest fantasy det går i. 
+            Til høyre har jeg en liste over noen av mine favorittbokserier, 
+            men i tillegg til disse leser jeg også mye webnovels, hvorav 
+            Draka er den jeg er mest engasjert i da jeg skriver dette.
+          </p>
+          <ul class="hero_list">
+            <li>Cosmere (Brandon Sanderson)</li>
+            <li>Dresden Files (Jim Butcher)</li>
+            <li>Draka (Avaritia Bona)</li>
+          </ul>
+        </div>
+
+        <h3>Favorittspill</h3>
+
+        <div class="hero_section">
+
+          <p>
+            Jeg er i stuss om jeg vil identifisere meg som en "gamer", men jeg 
+            er definitivt glad i spill, og bruker mye tid til det i perioder. 
+            Det kan gå måneder hvor jeg ikke berører et spill, og så kommer det 
+            plutselig ut et RPG som jeg blir oppslukt i og blir umulig å få kontakt 
+            med på en uke. Jeg har en lang liste over spill som har satt varige spor 
+            i meg, men til tross for hvor bra Outer Wilds er (prøv det, du vil ikke angre) 
+            kan jeg nok ikke sammenlikne det med de utvalgte på listen. Det er kanskje juks 
+            å ta med serier, men det er min liste så deal with it.
+          </p>
+          <ul class="hero_list">
+            <li>Terraria</li>
+            <li>Monster Hunter</li>
+            <li>Legend of Zelda</li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="projects">
+        <h2 class="projects_title">Prosjekter</h2>
+        <p class="projects_text">
+          Mitt kodeeventyr startet på ungdommskulen da jeg bestemte meg selv for å lære å kode på egenhånd. Jeg så på noen 
+          tutorials på YouTube, og prøvde meg frem med Python og Pygame. Mine første prosjekter var "ObOs" og "Hallvargeddon".
+        </p>
+        <h3 class="projects_subtitle">ObOs</h3>
+        <p>
+          ObOs var det første spillet jeg lagde (som faktisk hadde grafikk og ikke bare var et tallgjettespill fylt av intern humor), 
+          og var et to-spiller spill hvor den ene spilleren styrte Obama og kunne flytte ham opp og ned på ene enden av skjermen, mens 
+          den andre spilleren styrte Osama Bin Laden på andre siden av skjermen. Det var om å gjøre å skyte motstanderen først.
+        </p>
+
+        <h3 class="projects_subtitle">Hallvargeddon</h3>
+        <p>
+          Det var en klassekamerat som het Hallvar, og dette spillet gikk ut på å drepe ham med bombefly.
+          Jeg hadde tatt et bilde av ham hvor han så ondskapsfull ut, og fikk det til å dukke opp et tilfeldig 
+          sted på skjermen. Det var om å gjøre å time inputtet riktig, slik at bombeflyet slapp bomben på riktig 
+          tidspunkt til å treffe Hallvar. Det var to forskjellige endinger på spillet: den gode endingen fikk 
+          du hvis du klarte å treffe ham nok ganger, og viste en død Hallvar med mange små folk rundt som jublet. 
+          Den dårlige endingen fikk du hvis du gikk tom for ammunisjon, og viste Hallvar som brenner ned et hus 
+          med laserøyne og en vulkan som får utbrudd.
+
+
+        </p>
+
+      </section>
     </main>
+    <footer></footer>
   </body>
 </html>
