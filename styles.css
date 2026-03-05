@@ -8,7 +8,8 @@ body {
 header {
     display: flex;
     justify-content: space-between;
-    background-color: #31345F;}
+    background-color: #31345F;
+}
 
 .credit {
     color: salmon;}
@@ -63,7 +64,9 @@ header {
     height: 480px;
     background-color: #B185C4;
     color: #000000;
-    border: #E8DC53 groove;}
+    border: #E8DC53 groove;
+    border-radius: 10px;
+}
 
 .card_header {
     display: flex;
@@ -128,6 +131,7 @@ header {
 
 
 /* Footer */
-    footer {
-        background-color: #3b3b3b;
-    }
+footer {
+    background-color: #3b3b3b;
+    margin: 0;
+}
