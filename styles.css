@@ -51,6 +51,7 @@ header {
 
 .projects_section {
     margin-bottom: 10vh;
+    border-bottom: #ffffff15 solid;
 }
 
 
@@ -123,3 +124,10 @@ header {
     justify-self: center;
     margin-top: 40px;
     border: wheat solid;}
+
+
+
+/* Footer */
+    footer {
+        background-color: #3b3b3b;
+    }
