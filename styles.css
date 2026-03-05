@@ -157,6 +157,13 @@ header {
 
 /* Footer */
 footer {
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
     background-color: #3b3b3b;
     margin: 0;
+}
+
+.gitlink {
+    color: #ffffff;
 }
