@@ -37,7 +37,8 @@
       <section class="hero">
         <h1 class="main_title">Velkommen til min hjemmeside/portefølje!</h1>
 
-
+        <!-- Jeg innser her at jeg burde ha hero separat fra about seksjonen, men
+        da må jeg nesten omformatere alt her og jeg tror jeg heller beholder det slik foreløpig. -->
 
         <h2 class="hero_title">Om meg</h2>
           <div class="hero_section">
@@ -75,6 +76,7 @@
               </div>
             </figure>
           </div>
+
         <h3>Favorittbokserier</h3>
 
         <div class="hero_section">
@@ -117,74 +119,94 @@
       </section>
 
       <section class="projects">
-        <div class="projects_section">
-          <h2 class="projects_title">Prosjekter</h2>
-          <p class="projects_text">
-            Mitt kodeeventyr startet på ungdommskulen da jeg bestemte meg selv for å lære å kode på egenhånd. Jeg så på noen 
-            tutorials på YouTube, og prøvde meg frem med Python og Pygame. Mine første prosjekter var "ObOs" og "Hallvargeddon".
-          </p>
-          <h3 class="projects_subtitle">ObOs</h3>
-          <p>
-            ObOs var det første spillet jeg lagde (som faktisk hadde grafikk og ikke bare var et tallgjettespill fylt av intern humor), 
-            og var et to-spiller spill hvor den ene spilleren styrte Obama og kunne flytte ham opp og ned på ene enden av skjermen, mens 
-            den andre spilleren styrte Osama Bin Laden på andre siden av skjermen. Det var om å gjøre å skyte motstanderen først.
-          </p>
-        </div>
+        <h2 class="projects_title">Prosjekter</h2>
+        <p class="projects_intro">
+          Mitt kodeeventyr startet på ungdommskulen da jeg bestemte meg selv for å lære å kode på egenhånd. Jeg så på noen 
+          tutorials på YouTube, og prøvde meg frem med Python og Pygame. Mine første prosjekter var "ObOs" og "Hallvargeddon".
+        </p>
+        
+        <h3>Tidlige prosjekter:</h3>
+        <section class="project_cards_section">
+          <div class="projects_card">
+            <h3>ObOs</h3>
+            <p class="projects_text">
+              ObOs var det første spillet jeg lagde (som faktisk hadde grafikk og ikke bare var et tallgjettespill fylt av intern humor), 
+              og var et to-spiller spill hvor den ene spilleren styrte Obama og kunne flytte ham opp og ned på ene enden av skjermen, mens 
+              den andre spilleren styrte Osama Bin Laden på andre siden av skjermen. Det var om å gjøre å skyte motstanderen først.
+            </p>
+          </div>
 
-        <div class="projects_section">
-          <h3 class="projects_subtitle">Hallvargeddon</h3>
-          <p>
-            Det var en klassekamerat som het Hallvar, og dette spillet gikk ut på å drepe ham med bombefly.
-            Jeg hadde tatt et bilde av ham hvor han så ondskapsfull ut, og fikk det til å dukke opp et tilfeldig 
-            sted på skjermen. Det var om å gjøre å time inputtet riktig, slik at bombeflyet slapp bomben på riktig 
-            tidspunkt til å treffe Hallvar. Det var to forskjellige endinger på spillet: den gode endingen fikk 
-            du hvis du klarte å treffe ham nok ganger, og viste en død Hallvar med mange små folk rundt som jublet. 
-            Den dårlige endingen fikk du hvis du gikk tom for ammunisjon, og viste Hallvar som brenner ned et hus 
-            med laserøyne og en vulkan som får utbrudd.
-          </p>
-        </div>
+          <div class="projects_card">
+            <h3>Hallvargeddon</h3>
+            <p class="projects_text">
+              Det var en klassekamerat som het Hallvar, og dette spillet gikk ut på å drepe ham med bombefly.
+              Jeg hadde tatt et bilde av ham hvor han så ondskapsfull ut, og fikk det til å dukke opp et tilfeldig 
+              sted på skjermen. Det var om å gjøre å time inputtet riktig, slik at bombeflyet slapp bomben på riktig 
+              tidspunkt til å treffe Hallvar. Det var to forskjellige endinger på spillet: den gode endingen fikk 
+              du hvis du klarte å treffe ham nok ganger, og viste en død Hallvar med mange små folk rundt som jublet. 
+              Den dårlige endingen fikk du hvis du gikk tom for ammunisjon, og viste Hallvar som brenner ned et hus 
+              med laserøyne og en vulkan som får utbrudd.
+            </p>
+          </div>
 
-        <div class="projects_section">
-          <h3 class="projects_subtitle">usuk.exe</h3>
-          <p>
-            Jeg er usikker på om jeg vil engang nevnte denne bragden, siden det ikke er mye å være stolt over.
-            Dette var en bit med malware jeg skrev av ingen grunn annet enn at jeg kunne. Det var det mest simple 
-            malware du kan forestille deg, og den eneste funksjonen er at den highjacker all kapasiteten til PCen til 
-            å skrive søppeldata. Jeg endte opp med å permanent skade PCen min når jeg testet den, og klassekameratene 
-            mine syntes det var veldig festlig å laste den opp på en USB og overføre den til læreren sin laptop. 
-            Vi endte opp med å gjøre nettopp dette mens læreren var ute, men jeg hadde dårlig samvittighet og sa ifra 
-            så vi fikk stoppet det før PCen ble skadet. I hvert fall håper jeg at den ikke ble det.
-          </p>
-        </div>
+          <div class="projects_card">
+            <h3>usuk.exe</h3>
+            <p class="projects_text">
+              Jeg er usikker på om jeg vil engang nevnte denne bragden, siden det ikke er mye å være stolt over.
+              Dette var en bit med malware jeg skrev av ingen grunn annet enn at jeg kunne. Det var det mest simple 
+              malware du kan forestille deg, og den eneste funksjonen er at den highjacker all kapasiteten til PCen til 
+              å skrive søppeldata. Jeg endte opp med å permanent skade PCen min når jeg testet den, og klassekameratene 
+              mine syntes det var veldig festlig å laste den opp på en USB og overføre den til læreren sin laptop. 
+              Vi endte opp med å gjøre nettopp dette mens læreren var ute, men jeg hadde dårlig samvittighet og sa ifra 
+              så vi fikk stoppet det før PCen ble skadet. I hvert fall håper jeg at den ikke ble det.
+            </p>
+          </div>
+        </section>
+        
 
+        <h3>"Project 133Zeta"</h3>
+        <section class="project_cards_section">
+          <div class="projects_card">
+            <h3>Project 133Zeta</h3>
+            <div class="projects_text">
+              <p>
+                Project 133Zeta var det mest ambisiøse prosjektet jeg jobbet med i denne perioden. Det var meg og en 
+                klassekamerat som sammen ville lage et "ordentlig" spill. Jeg var ansvarlig for å lage amatørmessig grafikk, 
+                han andre jobbet mest med kodingen (JavaScript), og en annen venn av meg lagde musikk til spillet.
+              </p>
+              <p>
+                Det var en scrolling shooter hvor du reiste gjennom diverse baner med unike fiender, og etter at du døde kunne 
+                du kjøpe permanente oppgraderinger med ressurser du fikk fra fiender du drepte. Det var også planlagt å ha 
+                "cutscenes", men vi kom aldri så langt at vi fikk implementert det. Vi begynte på forskjellige videregående skoler, 
+                og prosjektet ble forlatt før det ble ferdig fordi vi mistet kontakt med hverandre.
+              </p>
+            </div>
+          </div>
+        </section>
 
+        <h3>Senere arbeid</h3>
+        <section class="project_cards_section">
+          <div class="projects_card">
+            <h3>Datascience</h3>
+            <p class="projects_text">
+              Etter å ikke ha jobbet mye med koding på en del år ble det nok en gang relevant for meg i utdanningen min. Jeg 
+              har ikke laget noen spill siden (annet enn en veldig bare-bones text-based RPG jeg lagde for å leke med dicts), 
+              men jeg har jobbet en del med data og modellering. Numpy, pandas, sklearn, og plotly er det vi jobbet mest med. 
+              Jeg har ingen spesifikke prosjekter jeg kan peke på hvor jeg kan vise frem hva jeg kan gjøre, men jeg har i hvert 
+              fall kyndighet til å bruke disse verktøyene nå, og ser frem til å bruke dem til fremtidige prosjekter.
+            </p>
+          </div>
 
-        <div class="projects_section">
-          <h2 class="projects_subtitle">Project 133Zeta</h3>
-          <p>
-            Project 133Zeta var det mest ambisiøse prosjektet jeg jobbet med i denne perioden. Det var meg og en 
-            klassekamerat som sammen ville lage et "ordentlig" spill. Jeg var ansvarlig for å lage amatørmessig grafikk, 
-            han andre jobbet mest med kodingen (JavaScript), og en annen venn av meg lagde musikk til spillet.
-          </p>
-          <p>
-            Det var en scrolling shooter hvor du reiste gjennom diverse baner med unike fiender, og etter at du døde kunne 
-            du kjøpe permanente oppgraderinger med ressurser du fikk fra fiender du drepte. Det var også planlagt å ha 
-            "cutscenes", men vi kom aldri så langt at vi fikk implementert det. Vi begynte på forskjellige videregående skoler, 
-            og prosjektet ble forlatt før det ble ferdig fordi vi mistet kontakt med hverandre.
-          </p>
-        </div>
-
-        <div class="projects_section">
-          <h2 class="projects_subtitle">Datascience</h3>
-          <p>
-            Etter å ikke ha jobbet mye med koding på en del år ble det nok en gang relevant for meg i utdanningen min. Jeg 
-            har ikke laget noen spill siden (annet enn en veldig bare-bones text-based RPG jeg lagde for å leke med dicts), 
-            men jeg har jobbet en del med data og modellering. Numpy, pandas, sklearn, og plotly er det vi jobbet mest med. 
-            Jeg har ingen spesifikke prosjekter jeg kan peke på hvor jeg kan vise frem hva jeg kan gjøre, men jeg har i hvert 
-            fall kyndighet til å bruke disse verktøyene nå, og ser frem til å bruke dem til fremtidige prosjekter.
-          </p>
-        </div>
-
+          <div class="projects_card">
+            <h3>Front-end</h3>
+            <p class="projects_text">
+              Jeg har et påbegynt kurs hvor jeg lærer om front-end utvikling. Så langt har vi dekket HTML og CSS, og vi kommer 
+              til å dekke JavaScript etter hvert. Det føles litt surrealistisk å lage en nettside som refererer til seg selv 
+              på nettsiden. Noe som ville vært veldig meta var å legge en utskrift av nettsiden inni kortet, men jeg tror 
+              jeg skal dy meg.
+            </p>
+          </div>
+        </section>
       </section>
 
     </main>

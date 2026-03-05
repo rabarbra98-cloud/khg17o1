@@ -46,18 +46,40 @@ header {
 }
 
 
+.projects {
+    text-align: center;
+    background-color: #101e1e;
+}
+
 .projects_title {
     margin-top: 20vh;
     color: #FFE766;}
 
-.projects_section {
-    margin-bottom: 10vh;
+.projects_intro {
+    padding-bottom: 10vh;
+}
+
+.project_cards_section {
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 10vh;
     border-bottom: #ffffff15 solid;
 }
 
+.projects_card {
+    width: 300px;
+    border: 1px #ffffff15 solid;
+    border-radius: 5px;
+    background-color: #20223f;
+    text-align: center;
+}
+
+.projects_text {
+    padding: 5px;
+}
 
 
-/* Card */
+/* Hero Card */
 
 .card_container {
     width: 400px;
@@ -75,7 +97,8 @@ header {
     align-items: center;}
 
 .card_img {
-    width: 113px;}
+    width: 113px;
+    padding: 5px;}
 
 .card_resources {
     width: 400px;
@@ -127,6 +150,8 @@ header {
     justify-self: center;
     margin-top: 40px;
     border: wheat solid;}
+
+
 
 
 
